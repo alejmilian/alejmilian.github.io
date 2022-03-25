@@ -1,3 +1,3 @@
 # alejmilian.github.io
 
-This is a test of git hub pages.
+This is my Portfolio of projects.
