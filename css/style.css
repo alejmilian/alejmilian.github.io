@@ -4,6 +4,7 @@
     --brightgrey: #C1D4D9;
     --orange: #F24535;
     --red: #D94E41;
+    --softred: #BF0436;
     --blue: #375A66;
     --grey: #96ABB3;
     --brightblue: #7ECFEA;
@@ -83,13 +84,13 @@ a:hover {
 }
 
 #intro span.technologie {
-    color: var(--red);
+    color: var(--brightblue);
 }
 
 /* contact section */
 
 #contact {
-    background-color: var(--red);
+    background-color: var(--softred);
     color: var(--brightgrey);
 }
 
@@ -247,7 +248,7 @@ footer [class*="fa-"]:hover {
 }
 
 .project-description p {
-    background-color: var(--red);
+    background-color: var(--brightblue);
     color: var(--darkblue);
     padding: 1rem;
     margin: 1rem 0;
