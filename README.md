@@ -1,3 +1,1 @@
-# alejmilian.github.io
-
-This is my Portfolio of projects.
+[![Anurag's GitHub stats](https://github-readme-stats.vercel.app/api?username=alejmilian)](https://github.com/anuraghazra/github-readme-stats)
