@@ -11,6 +11,145 @@
     />
     <meta name="author" content="Alejandro Milián" />
     <title>Alejandro Mili&aacute;n</title>
+    <link rel="shortcut icon" href="images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
   </head>
-  <body></body>
+  <body class="has-navbar-fixed-top">
+    <nav class="navbar is-fixed-top">
+      <div class="navbar-brand">
+        <a class="navbar-item" href="index.html" target="_blank"
+          ><i class="fa-solid fa-code" aria-hidden="true"> Alejandro</i>
+        </a>
+        <a
+          role="button"
+          class="navbar-burger"
+          aria-label="menu"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+        </a>
+      </div>
+      <div id="navbarMenu" class="navbar-menu">
+        <div class="navbar-end">
+          <a href="#about" class="navbar-item"> About </a>
+          <a href="#projects" class="navbar-item"> Projects </a>
+          <a href="#projects" class="navbar-item"> Contact </a>
+          <a
+            class="navbar-item"
+            href="https://www.linkedin.com/in/alejandro-milian"
+            target="_blank"
+            ><span class="icon">
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+              <span class="sr-only">Linkedin</span>
+            </span>
+          </a>
+          <a
+            class="navbar-item"
+            href="https://github.com/alejmilian"
+            target="_blank"
+          >
+            <span class="icon">
+              <i class="fa-brands fa-github-square" aria-hidden="true"></i>
+              <span class="sr-only">Github</span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </nav>
+    <section
+      id="intro"
+      class="is-family-sans-serif hero is-link is-medium"
+      style="background-image: url(images/subtle-prism\ \(1\).svg)"
+    >
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-8-desktop is-offset-2-desktop">
+              <p class="subtitle is-5">Hi, my name is</p>
+              <h1 class="title is-1 is-spaced">Alejandro Mili&aacute;n</h1>
+              <p class="subtitle is-3">&amp; I'm a Software Developer / Web Developer</p>
+              <div class="social-icons">
+                <span class="icon is-large">
+                  <a href="https://github.com/alejmilian"">
+                    <i class="fa-brands fa-github-square""></i>
+                  </a>
+                </span>
+                <span class="icon is-large">
+                  <a href="https://www.linkedin.com/in/alejandro-milian">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </span>
+                <a class="button">Get CV</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="about" class="section is-medium">
+      <div class="container content is-large is-full">
+        <h3 class="title">Who I am</h3>
+        <p>
+          I'm a Computer Science student who enjoys solving technical problems,
+          researching and developing new technologies, and designing software
+          applications.
+        </p>
+        <p>
+          I'm familiar with a variety of programming languages and technologies,
+          including
+          <span class="has-text-weight-semibold">JavaScript</span>,
+          <span class="has-text-weight-semibold">Python</span>,
+          <span class="has-text-weight-semibold">HTML</span>,
+          <span class="has-text-weight-semibold">CSS</span> , and
+          <span class="has-text-weight-semibold">PostgreSQL</span>.
+        </p>
+      </div>
+    </section>
+    <section id="projects" class="section is-medium">
+       <h2 class="has-text-centered title is-3">Projects</h2>
+       <div class="columns row is-desktop is-centered">
+         <div class="column is-half">
+            <p class="bd-notification is-link">First column</p>
+        </div>
+         <div class="column is-half">
+            <p class="bd-notification is-link">First column</p>
+        </div>
+         <div class="column is-half">
+            <p class="bd-notification is-link">First column</p>
+        </div>
+       </div>
+    </section>
+    
+    <section id="contact" class="section is-medium">
+        contact
+    </section>
+    
+    <footer class="footer">
+      <section>
+        <div class="container">
+          <div class="content has-text-centered">
+            <p>
+            <small>
+              &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+            Alejandro Mili&aacute;n. All rights reserved.
+            </small>
+          </p>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+  <script src="index.js"></script>
 </html>
